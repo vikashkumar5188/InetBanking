@@ -18,9 +18,9 @@ public class TC_LoginDDT_002 extends BaseClass
 	{
 		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(user);
-		logger.info("user name provided");
+		logger.info("user name provided for test2");
 		lp.setPassword(pwd);
-		logger.info("password provided");
+		logger.info("password provided for test 2");
 		lp.clickSubmit();
 		
 		Thread.sleep(3000);

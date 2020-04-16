@@ -20,6 +20,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		lp.setPassword(password);
 		logger.info("Passsword is provided");
 		lp.clickSubmit();
+		logger.info("CLick submit button");
 		
 		Thread.sleep(3000);
 		
